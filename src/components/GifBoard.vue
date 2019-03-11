@@ -11,6 +11,9 @@
 </template>
 
 <style>
+body{
+  overflow: hidden;
+}
 .gif-content {
   margin: 0;
   position: absolute;
