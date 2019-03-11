@@ -7,13 +7,31 @@
       <img v-on:click="fullScreen" src="@/assets/fullscreen.svg">
     </div>
     <div id="bar"></div>
+    <a href="https://github.com/ezesoler/bananita" target="_blank">
+      <img class="github-corner" src="@/assets/github.svg" alt="Source!">
+    </a>
   </div>
 </template>
 
 <style>
-body{
+body {
   overflow: hidden;
 }
+
+.github-corner {
+  opacity: 0.4;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 24px;
+  height: 24px;
+  margin: 0.7em;
+}
+
+.github-corner:hover {
+  opacity: 1;
+}
+
 .gif-content {
   margin: 0;
   position: absolute;
